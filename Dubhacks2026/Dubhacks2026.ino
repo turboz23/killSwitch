@@ -96,7 +96,8 @@ void vApiTask(void *pvParameters) {
       HTTPClient http;
       
       // 2. Pass the secure client into http.begin
-      http.begin(client, "https://api.apivoid.com/v2/url-reputation");
+      // PERSONAL DATA HIDDEN FOR PRIVACY REASONS
+      http.begin(client, "");
       http.addHeader("Content-Type", "application/json");
       http.addHeader("X-API-Key", apiKey);
 
